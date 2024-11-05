@@ -149,6 +149,6 @@ def linear_interpolation(x,x0,x1,y0,y1):
 if __name__ == '__main__':
     name = 'aSe'
     compound = { "34":1} # {Z: Fraction by weight}
-    density = 4.28 # hay que meterlo como input
+    density = 4.28 # density in g/cm3
     file, filename = generate_refrative_index_compound( compound, density, name)
     save_file(file, filename)
