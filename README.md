@@ -18,3 +18,5 @@ The data inside [form_factors](form_factors) folder have been obtained from [NIS
 * [generate_delta_beta](generate_delta_beta.py) is used to generate the complex refractive index of the elements which atomic form factors are inside the  [form_factors](form_factors) folder.
 * [compound_by_chemical_formula](compound_by_chemical_formula.py) enables to calculate the complex refractive index components of a compound using the chemical formula and the density as input.
 * [compound_by_weight](compound_by_weight.py) enables to calculate the complex refractive index components of a compound using the weight by mass of the components and the density as input.
+
+The output of all scripts is a text file inside [complex_refractive_index](complex_refractive_index) with the name of the element or compound. The first column of the file is the energy in keV, the second column is the $\delta$ parameter of the refractive index and the third column is the $\beta$ value.
