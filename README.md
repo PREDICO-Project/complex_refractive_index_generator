@@ -3,7 +3,7 @@ Repository to genereate text files with the complex refractive index of differen
 
 The refractive index is complex in the case of X-rays, it is defined as:
 
-$n = 1 - \delta + i\beta$
+$$n = 1 - \delta + i\beta$$
 
 This repository calculates the $\delta$ and $\beta$ values for each energy using the atomic form factors and the mass attenuation coefficient using the following equations:
 
