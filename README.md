@@ -7,10 +7,10 @@ $n = 1 - \delta + i\beta$
 
 This repository calculates the $\delta$ and $\beta$ values for each energy using the atomic form factors and the mass attenuation coefficient using the following equations:
 
-$\delta = \frac{\rho N_{A}\lambda^2r_{e}}{M_{a}2\pi}f_{1}$
+$$\delta = \frac{\rho N_{A}\lambda^2r_{e}}{M_{a}2\pi}f_{1}$$
 
 
-$\beta = \frac{\mu\cdot\lambda}{4\pi}$
+$$\beta = \frac{\mu\cdot\lambda}{4\pi}$$
 
 
 The data inside [form_factors](form_factors) folder have been obtained from [NIST database](https://physics.nist.gov/PhysRefData/FFast/html/form.html). 
