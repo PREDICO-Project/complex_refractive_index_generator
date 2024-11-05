@@ -5,7 +5,7 @@ from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg)
 from matplotlib.figure import Figure
 import sys, os
 from tkinter.filedialog import asksaveasfilename
-from generate_compounds import generate_refrative_index_compound
+from compound_by_chemical_formula import generate_refrative_index_compound
 
 
 current_path = os.path.dirname(__file__)
