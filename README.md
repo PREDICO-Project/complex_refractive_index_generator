@@ -20,3 +20,21 @@ The data inside [form_factors](form_factors) folder have been obtained from [NIS
 * [compound_by_weight](compound_by_weight.py) enables to calculate the complex refractive index components of a compound using the weight by mass of the components and the density as input.
 
 The output of all scripts is a text file inside [complex_refractive_index](complex_refractive_index) with the name of the element or compound. The first column of the file is the energy in keV, the second column is the $\delta$ parameter of the refractive index and the third column is the $\beta$ value.
+
+## How to run
+
+Type in the terminal 
+
+```python
+python3 generate_delta_beta.py
+```
+Or:
+```python
+python3 compound_by_chemical_formula.py
+```
+Or:
+```python
+python3 compound_by_weight.py
+```
+Depending on which script you want to run. **generate_delta_beta.py** and **compound_by_chemical_formula.py** scripts needs to rewrite parameters like the compound name, the density of the compound or the element composition (see the final lines of each script).
+
